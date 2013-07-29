@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84E871A17A619E7004E625F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84E871917A619E7004E625F /* main.cpp */; };
+		E84E871C17A619E7004E625F /* Pong2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E84E871B17A619E7004E625F /* Pong2.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E84E871317A619E7004E625F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E84E871C17A619E7004E625F /* Pong2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E84E871517A619E7004E625F /* Pong2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pong2; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84E871917A619E7004E625F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E84E871B17A619E7004E625F /* Pong2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pong2.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84E871217A619E7004E625F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84E870A17A619E7004E625F = {
+			isa = PBXGroup;
+			children = (
+				E84E871817A619E7004E625F /* Pong2 */,
+				E84E871617A619E7004E625F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84E871617A619E7004E625F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84E871517A619E7004E625F /* Pong2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84E871817A619E7004E625F /* Pong2 */ = {
+			isa = PBXGroup;
+			children = (
+				E84E871917A619E7004E625F /* main.cpp */,
+				E84E871B17A619E7004E625F /* Pong2.1 */,
+			);
+			path = Pong2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84E871417A619E7004E625F /* Pong2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84E871F17A619E7004E625F /* Build configuration list for PBXNativeTarget "Pong2" */;
+			buildPhases = (
+				E84E871117A619E7004E625F /* Sources */,
+				E84E871217A619E7004E625F /* Frameworks */,
+				E84E871317A619E7004E625F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong2;
+			productName = Pong2;
+			productReference = E84E871517A619E7004E625F /* Pong2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84E870C17A619E7004E625F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E84E870F17A619E7004E625F /* Build configuration list for PBXProject "Pong2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E84E870A17A619E7004E625F;
+			productRefGroup = E84E871617A619E7004E625F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84E871417A619E7004E625F /* Pong2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84E871117A619E7004E625F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84E871A17A619E7004E625F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E84E871D17A619E7004E625F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E84E871E17A619E7004E625F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E84E872017A619E7004E625F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E84E872117A619E7004E625F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84E870F17A619E7004E625F /* Build configuration list for PBXProject "Pong2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84E871D17A619E7004E625F /* Debug */,
+				E84E871E17A619E7004E625F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84E871F17A619E7004E625F /* Build configuration list for PBXNativeTarget "Pong2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84E872017A619E7004E625F /* Debug */,
+				E84E872117A619E7004E625F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84E870C17A619E7004E625F /* Project object */;
+}
