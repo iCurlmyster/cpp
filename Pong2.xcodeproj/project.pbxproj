@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		E84E871A17A619E7004E625F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84E871917A619E7004E625F /* main.cpp */; };
 		E84E871C17A619E7004E625F /* Pong2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E84E871B17A619E7004E625F /* Pong2.1 */; };
+		E84E872817A61A5C004E625F /* paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84E872717A61A5C004E625F /* paddle.cpp */; };
+		E84E872A17A61A68004E625F /* ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E84E872917A61A67004E625F /* ball.cpp */; };
+		E84E872C17A61B5B004E625F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84E872B17A61B5B004E625F /* Cocoa.framework */; };
+		E84E872E17A61B68004E625F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84E872D17A61B68004E625F /* Foundation.framework */; };
+		E84E873317A61BBA004E625F /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E84E873217A61BBA004E625F /* SDLMain.m */; };
+		E8951ACA17A7AA1B00E16E38 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8951AC917A7AA1B00E16E38 /* SDL_mixer.framework */; };
+		E896517717A63C5900AE90E5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E896517617A63C5900AE90E5 /* SDL.framework */; };
+		E896517A17A63D4700AE90E5 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E896517917A63D4700AE90E5 /* SDL_ttf.framework */; };
+		E8FB472F17B0DB2500864495 /* ball.h in Headers */ = {isa = PBXBuildFile; fileRef = E84E872617A61A4D004E625F /* ball.h */; };
+		E8FB473017B0DB2B00864495 /* paddle.h in Headers */ = {isa = PBXBuildFile; fileRef = E84E872517A61A41004E625F /* paddle.h */; };
+		E8FB473117B0DBE900864495 /* SDLMain.h in Headers */ = {isa = PBXBuildFile; fileRef = E84E873117A61BBA004E625F /* SDLMain.h */; };
+		E8FB473217B0DC4500864495 /* bassBeat.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8951ACC17A7ACB300E16E38 /* bassBeat.wav */; };
+		E8FB473317B0DC4A00864495 /* My_Song_2.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8951ACD17A7ACBC00E16E38 /* My_Song_2.wav */; };
+		E8FB473417B0DC4F00864495 /* leadcoat.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8A8D03D17A637920049CA3D /* leadcoat.ttf */; };
+		E8FB473517B0DC5300864495 /* ball.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8A8D03C17A6372A0049CA3D /* ball.bmp */; };
+		E8FB473617B0DC5900864495 /* paddle.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8A8D03B17A6371E0049CA3D /* paddle.bmp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +34,11 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				E8FB473617B0DC5900864495 /* paddle.bmp in CopyFiles */,
+				E8FB473517B0DC5300864495 /* ball.bmp in CopyFiles */,
+				E8FB473417B0DC4F00864495 /* leadcoat.ttf in CopyFiles */,
+				E8FB473317B0DC4A00864495 /* My_Song_2.wav in CopyFiles */,
+				E8FB473217B0DC4500864495 /* bassBeat.wav in CopyFiles */,
 				E84E871C17A619E7004E625F /* Pong2.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -26,8 +47,24 @@
 
 /* Begin PBXFileReference section */
 		E84E871517A619E7004E625F /* Pong2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pong2; sourceTree = BUILT_PRODUCTS_DIR; };
-		E84E871917A619E7004E625F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E84E871917A619E7004E625F /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.cpp; sourceTree = "<group>"; };
 		E84E871B17A619E7004E625F /* Pong2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pong2.1; sourceTree = "<group>"; };
+		E84E872517A61A41004E625F /* paddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle.h; sourceTree = "<group>"; };
+		E84E872617A61A4D004E625F /* ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ball.h; sourceTree = "<group>"; };
+		E84E872717A61A5C004E625F /* paddle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = paddle.cpp; sourceTree = "<group>"; };
+		E84E872917A61A67004E625F /* ball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ball.cpp; sourceTree = "<group>"; };
+		E84E872B17A61B5B004E625F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E84E872D17A61B68004E625F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E84E873117A61BBA004E625F /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		E84E873217A61BBA004E625F /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		E8951AC917A7AA1B00E16E38 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = Library/Frameworks/SDL_mixer.framework; sourceTree = DEVELOPER_DIR; };
+		E8951ACC17A7ACB300E16E38 /* bassBeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bassBeat.wav; sourceTree = "<group>"; };
+		E8951ACD17A7ACBC00E16E38 /* My_Song_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = My_Song_2.wav; sourceTree = "<group>"; };
+		E896517617A63C5900AE90E5 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Library/Frameworks/SDL.framework; sourceTree = DEVELOPER_DIR; };
+		E896517917A63D4700AE90E5 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = Library/Frameworks/SDL_ttf.framework; sourceTree = DEVELOPER_DIR; };
+		E8A8D03B17A6371E0049CA3D /* paddle.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = paddle.bmp; sourceTree = "<group>"; };
+		E8A8D03C17A6372A0049CA3D /* ball.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = ball.bmp; sourceTree = "<group>"; };
+		E8A8D03D17A637920049CA3D /* leadcoat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = leadcoat.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8951ACA17A7AA1B00E16E38 /* SDL_mixer.framework in Frameworks */,
+				E896517A17A63D4700AE90E5 /* SDL_ttf.framework in Frameworks */,
+				E896517717A63C5900AE90E5 /* SDL.framework in Frameworks */,
+				E84E872E17A61B68004E625F /* Foundation.framework in Frameworks */,
+				E84E872C17A61B5B004E625F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +86,16 @@
 		E84E870A17A619E7004E625F = {
 			isa = PBXGroup;
 			children = (
+				E8951AC917A7AA1B00E16E38 /* SDL_mixer.framework */,
+				E896517917A63D4700AE90E5 /* SDL_ttf.framework */,
+				E896517617A63C5900AE90E5 /* SDL.framework */,
+				E84E873117A61BBA004E625F /* SDLMain.h */,
+				E84E873217A61BBA004E625F /* SDLMain.m */,
+				E84E872D17A61B68004E625F /* Foundation.framework */,
+				E84E872B17A61B5B004E625F /* Cocoa.framework */,
+				E84E872417A61A19004E625F /* res */,
+				E84E872317A619F5004E625F /* ball */,
+				E84E872217A619F1004E625F /* paddle */,
 				E84E871817A619E7004E625F /* Pong2 */,
 				E84E871617A619E7004E625F /* Products */,
 			);
@@ -66,7 +118,50 @@
 			path = Pong2;
 			sourceTree = "<group>";
 		};
+		E84E872217A619F1004E625F /* paddle */ = {
+			isa = PBXGroup;
+			children = (
+				E84E872517A61A41004E625F /* paddle.h */,
+				E84E872717A61A5C004E625F /* paddle.cpp */,
+			);
+			name = paddle;
+			sourceTree = "<group>";
+		};
+		E84E872317A619F5004E625F /* ball */ = {
+			isa = PBXGroup;
+			children = (
+				E84E872617A61A4D004E625F /* ball.h */,
+				E84E872917A61A67004E625F /* ball.cpp */,
+			);
+			name = ball;
+			sourceTree = "<group>";
+		};
+		E84E872417A61A19004E625F /* res */ = {
+			isa = PBXGroup;
+			children = (
+				E8951ACC17A7ACB300E16E38 /* bassBeat.wav */,
+				E8951ACD17A7ACBC00E16E38 /* My_Song_2.wav */,
+				E8A8D03D17A637920049CA3D /* leadcoat.ttf */,
+				E8A8D03C17A6372A0049CA3D /* ball.bmp */,
+				E8A8D03B17A6371E0049CA3D /* paddle.bmp */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8FB472717B0DAB600864495 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FB473117B0DBE900864495 /* SDLMain.h in Headers */,
+				E8FB473017B0DB2B00864495 /* paddle.h in Headers */,
+				E8FB472F17B0DB2500864495 /* ball.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E84E871417A619E7004E625F /* Pong2 */ = {
@@ -76,6 +171,7 @@
 				E84E871117A619E7004E625F /* Sources */,
 				E84E871217A619E7004E625F /* Frameworks */,
 				E84E871317A619E7004E625F /* CopyFiles */,
+				E8FB472717B0DAB600864495 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -117,6 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E84E871A17A619E7004E625F /* main.cpp in Sources */,
+				E84E872817A61A5C004E625F /* paddle.cpp in Sources */,
+				E84E872A17A61A68004E625F /* ball.cpp in Sources */,
+				E84E873317A61BBA004E625F /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -153,7 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -171,14 +270,33 @@
 		E84E872017A619E7004E625F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SDLFinal\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
 		E84E872117A619E7004E625F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SDLFinal\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
@@ -201,6 +319,7 @@
 				E84E872117A619E7004E625F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

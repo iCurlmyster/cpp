@@ -1,0 +1,167 @@
+TPong2
+v4
+r1
+cCheck dependencies
+cCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2" normal i386
+
+N/Developer/Library/Frameworks/SDL.framework/SDL
+c000000004F17A7BF00000000000B66C8
+t1326950335
+s747208
+
+N/Developer/Library/Frameworks/SDL_mixer.framework/SDL_mixer
+c000000004F12FB37000000000004A6E4
+t1326644023
+s304868
+
+N/Developer/Library/Frameworks/SDL_ttf.framework/SDL_ttf
+c000000004F12FB7D000000000000CD4C
+t1326644093
+s52556
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E7AD7020000000000002470
+t1316673282
+s9328
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E7AD70300000000000ADF9C
+t1316673283
+s712604
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp
+c00000000520B1A24000000000000159A
+t1376459300
+s5530
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m
+c0000000051E218D20000000000002BC1
+t1373771986
+s11201
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp
+c00000000520028D40000000000000761
+t1375742164
+s1889
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2
+t2
+s0
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/Pong2.LinkFileList
+c000000005256FBD300000000000001CD
+t1381432275
+s461
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o
+t2
+s0
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o
+t2
+s0
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o
+t2
+s0
+
+N/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp
+c0000000051F5E3C900000000000003D0
+t1375069129
+s976
+
+CBuild AST from "/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp"
+r0
+
+CBuild AST from "/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m"
+r0
+
+CBuild AST from "/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp"
+r0
+
+CBuild AST from "/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6fbac5533307b841^1002ca533307b841^---0#1#0#--18"Check dependencies36"30D7B5CC-DC08-4BBC-B6CE-713909EEE3DA-
+
+CCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403125075.839448
+e403125076.744677
+r1
+xCompileC
+xbuild/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o
+x/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.mcc27d7533307b841^b6a1be543307b841^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/artroomemergency/Desktop/SDL%20Projects/Pong2/SDLMain.m0000000000000000^2162"CompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o SDLMain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/artroomemergency/Desktop/SDL Projects/Pong2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-generated-files.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-own-target-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-all-target-headers.hmap" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-project-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/include" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources/i386" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/../SDLFinal" -F/Developer/Library/Frameworks -MMD -MT dependencies -MF "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.d" -c "/Users/artroomemergency/Desktop/SDL Projects/Pong2/SDLMain.m" -o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/SDLMain.o"36"A9202C6C-B6F2-45A0-A6DB-E5FB18446D04-
+
+CCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s403125075.839108
+e403125077.133672
+r1
+xCompileC
+xbuild/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o
+x/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp5727d7533307b841^9b3722553307b841^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/artroomemergency/Desktop/SDL%20Projects/Pong2/ball.cpp0000000000000000^2204"CompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o ball.cpp normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/artroomemergency/Desktop/SDL Projects/Pong2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-generated-files.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-own-target-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-all-target-headers.hmap" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-project-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/include" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources/i386" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/../SDLFinal" -F/Developer/Library/Frameworks -MMD -MT dependencies -MF "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.d" -c "/Users/artroomemergency/Desktop/SDL Projects/Pong2/ball.cpp" -o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/ball.o"36"0EDA123C-717D-48D5-A245-8675B9C26C02-
+
+CCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s403125075.839117
+e403125077.138584
+r1
+xCompileC
+xbuild/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o
+x/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp:20:14: warning: no previous prototype for function 'load_Image' [-Wmissing-prototypes,3]
+o SDL_Surface* load_Image(const char* c)
+o              ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp7428d7533307b841^4e7a23553307b841^-232"/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp:20:14: warning: no previous prototype for function 'load_Image' [-Wmissing-prototypes,3] SDL_Surface* load_Image(const char* c)              ^1 warning generated.1(21%IDEActivityLogMessage2@47"No previous prototype for function 'load_Image'-403125077#0#155#-1#-23%DVTTextDocumentLocation3@83"file://localhost/Users/artroomemergency/Desktop/SDL%20Projects/Pong2/Pong2/main.cpp0000000000000000^19#13#19#13#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/artroomemergency/Desktop/SDL%20Projects/Pong2/Pong2/main.cpp0000000000000000^2216"CompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o Pong2/main.cpp normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/artroomemergency/Desktop/SDL Projects/Pong2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-generated-files.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-own-target-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-all-target-headers.hmap" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-project-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/include" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources/i386" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/../SDLFinal" -F/Developer/Library/Frameworks -MMD -MT dependencies -MF "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.d" -c "/Users/artroomemergency/Desktop/SDL Projects/Pong2/Pong2/main.cpp" -o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/main.o"36"AFE7B88C-0FAB-47E3-87B3-4C31FEEDB917-
+
+CCompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s403125075.839103
+e403125077.122202
+r1
+xCompileC
+xbuild/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o
+x/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp3527d7533307b841^4d481f553307b841^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/artroomemergency/Desktop/SDL%20Projects/Pong2/paddle.cpp0000000000000000^2214"CompileC build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o paddle.cpp normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/artroomemergency/Desktop/SDL Projects/Pong2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-generated-files.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-own-target-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-all-target-headers.hmap" -iquote "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Pong2-project-headers.hmap" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/include" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources/i386" "-I/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/DerivedSources" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/../SDLFinal" -F/Developer/Library/Frameworks -MMD -MT dependencies -MF "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.d" -c "/Users/artroomemergency/Desktop/SDL Projects/Pong2/paddle.cpp" -o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/paddle.o"36"A244AAE6-C2E7-42FB-A871-83F2E00E6846-
+
+CLd "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2" normal i386
+s403125077.146474
+e403125077.648537
+r1
+xLd
+x/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2089425553307b841^1c07a6553307b841^---0#0#0#--782"Ld build/Debug/Pong2 normal i386    cd "/Users/artroomemergency/Desktop/SDL Projects/Pong2"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug" "-F/Users/artroomemergency/Desktop/SDL Projects/Pong2/../SDLFinal" -F/Developer/Library/Frameworks -filelist "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Pong2.build/Debug/Pong2.build/Objects-normal/i386/Pong2.LinkFileList" -mmacosx-version-min=10.7 -framework SDL_mixer -framework SDL_ttf -framework SDL -framework Foundation -framework Cocoa -o "/Users/artroomemergency/Desktop/SDL Projects/Pong2/build/Debug/Pong2"36"DFB1741B-DFA7-49BA-AA50-F3794D831C3E-
+
